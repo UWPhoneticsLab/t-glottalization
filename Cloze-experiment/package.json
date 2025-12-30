@@ -1,0 +1,11 @@
+{
+    "name": "cloze",
+    "scripts": {
+        "start": "nodemon --watch server.js --verbose server.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "find-free-port": "^2.0.0",
+        "nodemon": "^3.1.10"
+    }
+}
