@@ -48,20 +48,20 @@ This study investigates the role of **lexical surprisal** in conditioning patter
 
 #### Randomization B
 **Design notes:**
-- First half of low-surprisal sentences per phonological condition.
 - Second half of high-surprisal sentences per phonological condition.
+- First half of low-surprisal sentences per phonological condition.
 - Order of the sentences was randomized using Google Sheets `Randomize Range` function
 
 #### Randomization C
 **Design notes:**
-- Every other sentence from high-surprisal sentences, starting with the first sentence. 
-- Every other sentence from low-surprisal sentences, beginning with the second sentence.
+- Every other sentence from high-surprisal sentences, starting with the first sentence per phonological condition. 
+- Every other sentence from low-surprisal sentences, beginning with the second sentence per phonological condition.
 - Order of the sentences was randomized using Google Sheets `Randomize Range` function
 
 #### Randomization D
 **Design notes:**
-- Every other sentence from low-surprisal sentences, starting with the first sentence. 
-- Every other sentence from high-surprisal sentences, beginning with the second sentence.
+- Every other sentence from high-surprisal sentences, beginning with the second sentence per phonological condition.
+- Every other sentence from low-surprisal sentences, starting with the first sentence per phonological condition. 
 - Order of the sentences was randomized using Google Sheets `Randomize Range` function
 
 ---

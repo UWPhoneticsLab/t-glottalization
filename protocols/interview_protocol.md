@@ -1,7 +1,7 @@
 # Utah Sociolinguistic Interview Protocol
 
 ## Study Overview
-This study investigates the role of **lexical surprisal** in conditioning patterns of **/t/-glottalization** in Utahn English. Because /t/-glottalization is socially stigmatized, we examine whether speakers engage in **hypercorrection** (realizing /t/ as [t]) in high-surprisal contexts and **hypocorrection** (glottal stop or creaky voice) in low-surprisal contexts. These patterns are compared against a non-stigmatized regional feature, the **FAIL–FELL merger** to [fɛl], which serves as a dialectal baseline.
+This study investigates the role of **lexical surprisal** in conditioning patterns of **/t/-glottalization** in Utahn English. Because /t/-glottalization is socially stigmatized, we examine whether speakers engage in **hypercorrection** (realizing /t/ as [t] or [tʰ]) in high-surprisal contexts and **hypocorrection** (glottal stop or creaky voice) in low-surprisal contexts. These patterns are compared against a non-stigmatized regional feature, the **FAIL–FELL merger** to [fɛl], which serves as a dialectal baseline.
 
 The session consists of a **Labovian sociolinguistic interview** followed by a **sentence-reading task**. The interview is structured to gradually shift from low-monitoring to higher-monitoring speech styles.
 
