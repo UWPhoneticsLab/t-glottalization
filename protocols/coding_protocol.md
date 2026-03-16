@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study
+# Coding Protocol for the Utah /t/-Glottalization Study (v2026-03-16)
 
 ## 1. Overview
 
