@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title>PSY1903</title>
+    <link href=data:, rel=icon>
+</head>
+
+<body>
+    <h1>My PSY1903 Web Server</h1>
+
+    <h2>Contents</h2>
+    <ul id="directory-list"></ul>
+    <script>
+        function renderTree(tree, basePath, ul) {
+            Object.entries(tree).forEach(([name, child]) => {
+                const li = document.createElement('li');
+                if (child && typeof child === 'object') {
+                    // Directory: plain text
+                    li.textContent = name;
+                    ul.appendChild(li);
+                    const nested = document.createElement('ul');
+                    li.appendChild(nested);
+                    renderTree(child, `${basePath}${name}/`, nested);
+                } else {
+                    if (name === 'index.html' && basePath === '') {
+                        // Current page: plain text
+                        li.textContent = name;
+                        ul.appendChild(li);
+                    } else {
+                        // File: link
+                        const a = document.createElement('a');
+                        const href = `${basePath}${name}`;
+                        a.href = href;
+                        a.textContent = name;
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                    }
+                }
+            });
+        }
+        fetch('/contents')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('directory-list');
+                list.innerHTML = '';
+                renderTree(data.files, '', list);
+            })
+            .catch(error => {
+                console.error('Error fetching directories:', error);
+            });
+    </script>
+</body>
+
+</html>
