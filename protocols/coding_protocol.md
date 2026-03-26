@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study
+# Coding Protocol for the Utah /t/-Glottalization Study (v2026-03-16)
 
 ## 1. Overview
 
@@ -170,6 +170,7 @@ This tier records the **phonetic realization** of the variable.
 | Label   | Description                         |
 | ------- | ----------------------------------- |
 | t       | clear alveolar stop                 |
+| tʰ      | clear aspirated alveolar stop       |
 | glottal | glottal stop [ʔ]                    |
 | creaky  | creaky or glottalized phonation     |
 | unclear | token cannot be reliably classified |
