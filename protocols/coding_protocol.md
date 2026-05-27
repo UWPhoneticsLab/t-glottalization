@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-04-03)
+# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-05-26)
 
 ## 1. Overview
 
@@ -21,6 +21,8 @@ A second variable, the **FAIL–FELL vowel merger**, is included as a **non-stig
 Annotation is conducted in **Praat** using a standardized **TextGrid structure**. Each annotated token corresponds to one observation in the coding spreadsheet used for statistical analysis.
 
 Importantly, annotators code **only observable phonetic and contextual properties**. Theoretical interpretations (e.g., hypercorrection, monitoring level, surprisal) are derived later during analysis.
+
+NOTE: The phonemic transcriptions are listed in CMU's ARPABET, which is a type of ASCII transcription system developed in the 1970s. The correspondence between ARPABET and IPA can be found at [ARPABET's Wikipedia page](https://en.wikipedia.org/wiki/ARPABET).
 
 ---
 
@@ -65,9 +67,27 @@ For each token, fill in the relevant tiers describing:
 
 ## 4. TextGrid Tier Structure
 
-The annotation TextGrid contains several tiers used to encode contextual and phonetic information. These tiers are located under the transcription tiers.
+The annotation TextGrid contains several tiers used to encode contextual and phonetic information. These tiers are located under the transcription tiers. You should use an interval tier for any non-categorical information and these tiers have already been created by protocol found in `transcription_protocol.md`. 
 
-### Interval tiers
+You will be creating point tiers and creating point tier boundaries for the following information. 
+
+### Point tiers
+
+#### target_word 
+
+The orthographic form of the word containing the variable. Taken from the transcriptions. 
+
+Examples:
+
+```
+mountain
+Latin
+cotton
+well
+whale
+```
+
+---
 
 #### task
 
@@ -134,21 +154,7 @@ Speech produced while reading sentences from the experimental list.
 
 ---
 
-#### target_word
 
-The orthographic form of the word containing the variable. Taken from the transcriptions. 
-
-Examples:
-
-```
-mountain
-Latin
-rotten
-fail
-fell
-```
-
----
 
 #### variable
 
@@ -196,7 +202,7 @@ Stress of the syllable containing the variable.
 | stressed   | occurs in a stressed syllable    |
 | unstressed | occurs in an unstressed syllable |
 
-Coders should rely on **standard English stress patterns** unless the speaker clearly produces an alternate stress.
+Coders should rely on **standard English stress patterns** unless the speaker clearly produces an alternate stress. This is also indicated in ARPABET using a numeral after the vowel (0 = unstressed, 1 = primary stress, 2 = secondary stress)
 
 ---
 
