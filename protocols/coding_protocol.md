@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-05-26)
+# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-06-01)
 
 ## 1. Overview
 
@@ -14,6 +14,7 @@ The primary linguistic variable is **/t/-glottalization**, which may be realized
 * [t]  (alveolar stop)
 * [tʰ] (aspirated alveolar stop)
 * [ʔ]  (glottal stop)
+* [ɾ]  (alveolar flap)
 * creaky or glottalized phonation
 
 A second variable, the **FAIL–FELL vowel merger**, is included as a **non-stigmatized dialect control variable**.
@@ -175,8 +176,9 @@ This tier records the **phonetic realization** of the variable.
 
 | Label   | Description                         |
 | ------- | ----------------------------------- |
-| t       | clear alveolar stop                 |
+| t       | clear alveolar stop or unreleased   |
 | tʰ      | clear aspirated alveolar stop       |
+| ɾ       | alveolar flap or tap                |
 | glottal | glottal stop [ʔ]                    |
 | creaky  | creaky or glottalized phonation     |
 | unclear | token cannot be reliably classified |
