@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-06-01)
+# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-06-30)
 
 ## 1. Overview
 
@@ -16,6 +16,7 @@ The primary linguistic variable is **/t/-glottalization**, which may be realized
 * [ʔ]  (glottal stop)
 * [ɾ]  (alveolar flap)
 * creaky or glottalized phonation
+* Elided/deleted
 
 A second variable, the **FAIL–FELL vowel merger**, is included as a **non-stigmatized dialect control variable**.
 
@@ -116,17 +117,17 @@ This tier categorizes the conversational context of the token.
 
 **Narrative**
 
-Speaker recounts events or personal experiences.
+Speaker **recounts events or personal experiences**.
 
 Example:
 
-> “Last summer I went hiking in the mountains and…”
+> “Last summer, I went hiking in the mountains and…”
 
 ---
 
 **Opinion**
 
-Speaker expresses beliefs, preferences, or evaluations.
+Speaker expresses **beliefs, preferences, or evaluations**.
 
 Example:
 
@@ -155,8 +156,6 @@ Speech produced while reading sentences from the experimental list.
 
 ---
 
-
-
 #### variable
 
 Indicates which linguistic variable the token represents.
@@ -181,6 +180,7 @@ This tier records the **phonetic realization** of the variable.
 | ɾ       | alveolar flap or tap                |
 | glottal | glottal stop [ʔ]                    |
 | creaky  | creaky or glottalized phonation     |
+| elided  | no pronunciation of /t/             |
 | unclear | token cannot be reliably classified |
 
 ---
@@ -221,6 +221,8 @@ Examples include:
 | V_#  | word-final         |
 | #_V  | word-initial       |
 
+Note: This is a nonexclusive list, if there are additional environments not listed here. Feel free to mark them in the spreadsheet. 
+
 ---
 
 ## 5. Acoustic Identification of /t/ Realizations
@@ -244,14 +246,23 @@ Indicators:
 * brief period of silence followed by release
 * period of aspiration following the burst
 
+### Flapping [ɾ]
+
+Indicators:
+
+* oscillogram shows a short voiced closure duration (approximately 35 ms)
+* no discernible burst
+* no aspiration
+
 ### Glottal stop [ʔ]
 
 Indicators:
 
 * abrupt cessation of voicing
-* absence of alveolar burst
+* burst
 * glottal closure visible in waveform
 
+Note: Glottal stops frequently co-occur with creaky voice. If you see the indicators for glottal stops it is marked as a glottal stop, regardless of the creaky voice co-articulation
 
 ### Creaky voice realization
 
@@ -261,6 +272,17 @@ Indicators:
 * lowered amplitude
 * creaky phonation around the target segment
 
+Note: Glottal stops frequently co-occur with creaky voice. If you see the indicators for glottal stops it is marked as a glottal stop, regardless of the creaky voice co-articulation.
+
+### Elided
+
+Indicator:
+
+* Apparent deletion of /t/
+  
+### Unclear
+
+If the token does not conform to any of the above, it is marked as unclear.
 ---
 
 ## 6. Coding Ambiguous Tokens
@@ -301,14 +323,13 @@ Discrepancies will be reviewed and resolved collaboratively.
 After annotation:
 
 1. Extract token information from the TextGrid.
-2. Enter token-level information into the coding spreadsheet.
+2. Enter token-level information into the coding spreadsheet, [located here](https://docs.google.com/spreadsheets/d/1J-J7e7HrZpQGFa7hKJZyJCeyoEoNQfmitVBcaYNMKu8/edit?usp=sharing).
 3. Each token should correspond to **one row** in the spreadsheet.
 4. Each token from the middle third of the interview will be coded on a separate spreadsheet.
 
 Required fields include:
 
 * speaker ID
-* recording ID
 * task
 * discourse type
 * target word
@@ -322,7 +343,7 @@ Required fields include:
 
 ---
 
-## 9. Derived Variables (Not Annotated)
+## 9. Derived Variables (Not Annotated in TextGrid)
 
 Certain variables are calculated automatically during analysis.
 
