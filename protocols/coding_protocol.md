@@ -1,4 +1,4 @@
-# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-06-30)
+# Coding Protocol for the Utah /t/-Glottalization Study (v.2026-08-06)
 
 ## 1. Overview
 
@@ -189,8 +189,8 @@ This tier records the **phonetic realization** of the variable.
 
 | Label    | Description              |
 | -------- | ------------------------ |
-| merged   | vowel realized as [fɛl]  |
-| unmerged | vowel contrast preserved |
+| ɛ        | vowel realized as [fɛl]  |
+| eɪ       | vowel realized as [feɪl] |
 | unclear  | ambiguous realization    |
 
 ---
@@ -210,7 +210,7 @@ Coders should rely on **standard English stress patterns** unless the speaker cl
 
 #### phon_env
 
-Phonological environment surrounding the /t/.
+Phonological environment surrounding the /t/, using the characters N (nasal), V (vowel), C (non-nasal consonant), and # (word boundary) as contexts, and _ as the target phone's position.
 
 Examples include:
 
