@@ -25,7 +25,10 @@
 #   "ggplot2",
 #   "ggokabeito",
 #   "ggpubr",
+#   "lme4",
 #   "lmerTest"
+#   "broom",
+#   "emmeans"
 # )
 
 # renv::install(pkgs)
@@ -41,7 +44,10 @@ library(ggokabeito)
 library(ggpubr)
 
 # Data analysis
-library(lmerTest)
+library(lme4)
+# library(lmerTest)
+# library(broom)
+library(emmeans)
 
 # renv::snapshot()
 renv::restore()
